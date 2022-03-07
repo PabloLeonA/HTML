@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyBake</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: rgb(216, 149, 149);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Crear 2 columnas con la misma posición en la fila */
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            /* only for demonstration, should be removed */
+            background: #ccc;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+        }
+        .borde-imagen {
+            border-color: rgb(88, 0, 59);
+            border-width: 5px;
+            border-style: solid;
+            border-radius: 10px;
+        }
+
+        .tamaño-imagen {
+            width: 200px;
+            height: 200px;
+        }
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Estilo de footer */
+        footer {
+            background-color: rgb(124, 124, 211);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        /* Responsive layout */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+    
+        }
+    </style>
+</head>
+
+<body>
+  
+       
+    <header>
+        <h2>EasyBake</h2> <div align="center"> <img class="tamaño-imagen  borde-imagen" src="https://github.com/PabloLeonA/HTML/blob/main/logo.PNG?raw=true"
+            alt="Lumi-cake" border="0"></div>
+            <div align="center">
+
+   
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="rutas.html">inicio</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Formulario.html">Pedidos</a></li>
+                
+            </ul>
+        </nav>
+
+        <article>
+            <h1>Quienes somos</h1>
+            <p>EasyBake es una empresa mexicana nacida de la iniciativa joven con la finalidad de traer a la vida un sin fin de pasteles de los clientes mas exigentes manejamos todo tipo de diseños y con los mas exquisitos productos.</p>
+
+           
+        </article>
+        <p>
+
+        </p>
+    </section>
+
+
+    <p>
+
+   </p>
+   <p>
+
+</p>
+<p>
+
+</p>
+
+
+    <footer>
+        <p>Direccion calle fundadores No 27 Col Forjadores CP:24123 Tel:2223411551</p>
+    </footer>
+
+</body>
+
+</html>
